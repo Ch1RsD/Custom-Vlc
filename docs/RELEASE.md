@@ -10,12 +10,6 @@
 - SHA-256：`78658FD7EFA34230073F0DDAEEC1DFE3A636048040673E5ACE1C793774851CC0`
 - 签名：Android Debug 开发证书，v1/v2/v3
 
-源码归档 SHA-256：
-
-```text
-4C212B5B0D058199041160B111195674F50FFF6B0D2B57FC12DD30F217BF5766
-```
-
 ## GitHub Release 文件
 
 GitHub 普通 Git 文件上限为 100 MiB，因此 APK 不进入 Git 历史。发布时在 GitHub Releases
@@ -25,9 +19,8 @@ GitHub 普通 Git 文件上限为 100 MiB，因此 APK 不进入 Git 历史。�
 - `vlccustom-3.6.3-release.apk.idsig`
 - `SHA256SUMS.txt`
 
-如同时提供源码归档，可附加：
-
-- `vlccustom-3.6.3-source.zip`
+源码由 GitHub 根据发布标签自动生成 `Source code (zip)` 和
+`Source code (tar.gz)` 归档，避免维护一份可能与 `main` 不一致的重复压缩包。
 
 ## 发布前检查
 

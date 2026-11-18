@@ -189,12 +189,11 @@ docs/                              架构、构建测试、修改清单和发布
   `vlccustom-3.6.3-release.apk`
 - APK SHA-256：
   `78658FD7EFA34230073F0DDAEEC1DFE3A636048040673E5ACE1C793774851CC0`
-- 源码包 SHA-256：
-  `4C212B5B0D058199041160B111195674F50FFF6B0D2B57FC12DD30F217BF5766`
 - APK 签名：v1、v2、v3
 - Native 库：`arm64-v8a`、`armeabi-v7a`、`x86`、`x86_64`
 
-详细发布和维护步骤见 [发布说明](docs/RELEASE.md)。
+源码可通过仓库页面或 GitHub 标签自动生成的源码归档获取。详细发布和维护步骤见
+[发布说明](docs/RELEASE.md)。
 
 ## 已知限制
 
